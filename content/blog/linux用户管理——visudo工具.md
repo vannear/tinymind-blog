@@ -3,6 +3,7 @@ title: Linux用户管理——visudo工具
 date: 2024-12-02T03:54:09.383Z
 ---
 
+
 Linux默认情况下会限制显示输入的密码，也就是说用户不会知道是否键入了密码，也不知道已经输入密码的位数，这一特征来源于Unix，可以通过一些办法来修改。
 
 - Visudo工具
@@ -24,8 +25,8 @@ Defaults env_reset
 ```bash
 Defaults env_reset,pwfeedback,timestamp_timeout=15,passwd_tries=5
 ```
-<!-- more -->
-解释
+
+## 解释
 - pwfeedback——显示键入密码的位数
 - timestamp_timeout=15——超过15分钟自动中断连接
 - passwd_tries=5——尝试密码次数从默认的3次改为5次
