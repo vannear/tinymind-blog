@@ -1,5 +1,10 @@
 [
   {
+    "id": "1733111812433",
+    "content": "# 无题\n![IMG_0859.jpeg](https://cloudflare-imgbed-p1r.pages.dev/file/1732404679259_IMG_0859.jpeg)\n\n喜鹊不知，这一地的麦当劳，或许是在周末的夜晚唯一能找到的夜宵。当清风和下弦月终于驱散了白天的燠热，疲惫和饥饿同时袭来，只剩开到深夜的麦当劳还能提供足以饱腹的能量。\n\n在昏暗的路灯下找到一个宽敞的马路牙子，冰可乐第一口在晚风的轻抚下格外爽口，就着一口汉堡里的浓稠酱汁让人欣慰，于是迅速扫完了一整个汉堡，平时不爱吃的生菜叶碎，此时叶格外清爽。第二口冰可乐更是无比享受，仿佛世间的一切都不再能造成困扰，就着尚含热气的鸡块和薯条迅速下肚，油脂的香气与饱腹感似乎将所有的饥饿和困倦一扫而空。\n\n紧接着灌进剩下的冰可乐，满足地打了个嗝，各种香气满足地从口腔喷出又回馈到鼻腔呼吸道中。此时，一种叫幸福的感觉充斥着全身，烈烈的晚风从身边一阵阵吹过，带走了最后一丝暑热，只要往后一躺又何尝不是几个小时的神仙呢？\n\n\n\n昨夜星辰昨夜风\n\n马路侧畔行道中\n\n身无彩凤双飞翼\n\n地有薯条鸡块踪\n\n箕坐畅饮冰可乐\n\n远观路口绿灯红\n\n嗟余电尽归家去\n\n走马楼台类转蓬\n\n\n\n\n",
+    "timestamp": "2024-12-02T03:56:52.433Z"
+  },
+  {
     "id": "1733111620670",
     "content": "# Windows家庭版开启Hyper-V功能\nWindows的家庭版缺少了一些常用的功能，例如组策略，另一个比较重要的组件是Hyper-V功能，在控制面板的添加删除WINDOWS组件当中都无法找到这一功能，需要通过命令行的方式来进行添加。\n\n以管理员模式打开CMD：\n```powershell\npushd \"%~dp0\"\ndir /b %SystemRoot%\\servicing\\Packages\\*Hyper-V*.mum >hv.txt\nfor /f %%i in ('findstr /i . hv.txt 2^>nul') do dism /online /norestart /add-package:\"%SystemRoot%\\servicing\\Packages\\%%i\"\ndel hv.txt\nDism /online /enable-feature /featurename:Microsoft-Hyper-V -All /LimitAccess /ALL\npause\n```\n原理是使用Dism工具在线下载HYPER-V管理器组件。",
     "timestamp": "2024-12-02T03:53:40.670Z"
