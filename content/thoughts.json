@@ -1,7 +1,7 @@
 [
   {
     "id": "1733284345545",
-    "content": "[项目地址](https://github.com/ifyour/deeplx-for-cloudflare)\n\n\n- 简介\n在Cloudflare设置页面中创建workers，在部署完成之后点击编辑代码，将github页面中的dist/index.js 代码覆盖原来的worker代码，再点击部署即可生效。\n\n将需要进行翻译的操作的软件中设置deeplx的链接为生成的workers的地址即可。",
+    "content": "# Cloudflare搭建DeeplX翻译服务\n[项目地址](https://github.com/ifyour/deeplx-for-cloudflare)\n\n\n- 简介\n在Cloudflare设置页面中创建workers，在部署完成之后点击编辑代码，将github页面中的dist/index.js 代码覆盖原来的worker代码，再点击部署即可生效。\n\n将需要进行翻译的操作的软件中设置deeplx的链接为生成的workers的地址即可。",
     "timestamp": "2024-12-04T03:52:25.545Z"
   },
   {
