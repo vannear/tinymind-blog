@@ -1,5 +1,10 @@
 [
   {
+    "id": "1733305781784",
+    "content": "所以到底谁更厉害啊？\n![ba96089e79baf33adfc637ed8ff1f23.jpg](https://github.com/vannear/tinymind-blog/blob/main/assets/images/2024-12-04/1733305760519.jpg?raw=true)\n\n",
+    "timestamp": "2024-12-04T09:49:41.784Z"
+  },
+  {
     "id": "1733291078302",
     "content": "# Linux dd命令\n今天在研究能否在Promox PVE上将已经开启的虚拟机进行硬盘空间缩小的操作，其中copilot给出的一个方法是为虚拟机先添加一个缩容后大小的硬盘，将现在的数据导入到新硬盘上，涉及到了dd命令：\n\n```bash\ndd if=/dev/[deviceName] of=/dev/[deviceName] bs=[size]\n```\n\n## 用途\n- if 代表用于源文件\n- of 代表目标文件\n- bs代表buffer大小\n\n这个办法并没有成功实现，在重启之后遇到了虚拟机系统无法读取启动引导的问题，但这个命令的操作值得记录一下。\n\n## 参考\n[菜鸟教程](https://www.runoob.com/linux/linux-comm-dd.html)\n\n这个文档当中给出了几个通过dd命令实现一些目的的示例，例如制作启动盘等",
     "timestamp": "2024-12-04T05:44:38.302Z"
