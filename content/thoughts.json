@@ -1,5 +1,10 @@
 [
   {
+    "id": "1733284345545",
+    "content": "[项目地址](https://github.com/ifyour/deeplx-for-cloudflare)\n\n\n- 简介\n在Cloudflare设置页面中创建workers，在部署完成之后点击编辑代码，将github页面中的dist/index.js 代码覆盖原来的worker代码，再点击部署即可生效。\n\n将需要进行翻译的操作的软件中设置deeplx的链接为生成的workers的地址即可。",
+    "timestamp": "2024-12-04T03:52:25.545Z"
+  },
+  {
     "id": "1733112039253",
     "content": "# gitui\n[项目地址](https://github.com/extrawurst/gitui)\n\n终端工具，可以非常迅速且直观地查看git repository中的文件修改历史以及整个repo的提交记录等信息，预览内容也非常迅速，相当实用的工具。\n\n支持多个系统，看了一下readme文件中，列出的Linux发行版好像没有一个Debian-based的……不过对Windows的支持非常不错，可以直接使用winget进行安装，安装完成后path还没有更新，需要重新调用一次命令行，再切换到git repo目录才可以通过gitui进行管理操作。\n\n\n虽说是支持Windows，不过对于powershell的语言还没有进行高亮标注，期待之后的更新吧。\n![image.png](https://cloudflare-imgbed-p1r.pages.dev/file/1732580288236_image.png)\n\n工具来源是[良许linux的公众号更新](https://mp.weixin.qq.com/s/5x3cH_HfcIgzXUoH3KHiDg)。",
     "timestamp": "2024-12-02T04:00:39.253Z"
