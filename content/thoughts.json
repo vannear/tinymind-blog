@@ -1,5 +1,10 @@
 [
   {
+    "id": "1734069009915",
+    "content": "# Cortana\n不知道微软为何在2024年了还保留着这么一个抽象程度约等于Siri的app",
+    "timestamp": "2024-12-13T05:50:09.915Z"
+  },
+  {
     "id": "1733716424987",
     "content": "# qView看图软件\n今天清理Windows笔记本的时候发现，Windows自带的照片软件占用空间居然要800MB，而且那个功能总有残缺不全的地方，例如当浏览到一个文件夹中的最后一张图片的时候，Windows照片会一直卡在这个最后一张图片。\n\n于是用谷歌搜索了一下，居然看到个reddit的帖子也在抱怨这件事情，而且有老哥给出了答案，主要是因为Windows的照片需要兼容X86 X64 arm平台，而且代码结构没有得到优化，虽然反应速度说不上慢，但这个占用的体积确实太抽象了。评论区老哥给出了一个开源免费的看图软件：qview。\n[软件官网](https://interversehq.com/qview/)\n\n[GitHub项目地址](https://github.com/jurplel/qView) —— 如果觉得好用记得至少star一下\n\n[下载页](https://interversehq.com/qview/download/)\n\n安装完之后，至少初步体验下来Windows照片的痛点都解决了，占用空间仅有80MB，并且支持windows macOS以及Linux。总体来说非常满意。",
     "timestamp": "2024-12-09T03:53:44.987Z"
