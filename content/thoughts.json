@@ -1,5 +1,10 @@
 [
   {
+    "id": "1734236528008",
+    "content": "# InputTips\n\n输入法指示器——来自于玄离199的科技补全第28期视频，对于中文输入法而言，这个工具是比较有用的，对于英文、中文、大写字母模式下，在光标处给出一个颜色指示，可以直观地给出现在键盘的状态，而不用去检查Windows任务栏的图标或者是键盘的指示灯。logiOptions也有这样的一个短暂提示，但那个软件体积已经接近1G，且弹出提示窗的时候有明显的卡顿，并且那个提示的框所占面积不小，极其没有性价比，而这么个微小的颜色指示器就要方便许多了，且颜色还可以自定义。\n\n[项目地址](https://github.com/abgox/InputTip)\n\n[项目官网](https://inputtip.pages.dev/)\n\n## 使用方法：\n\n去项目地址或者项目官网当中下载inputtip.exe文件，将其放在目标安装目录当中运行，.exe文件会在此目录下生成一个带有配置文件和子目录。右键点击Windows系统可以进行自定义，例如指示器的颜色以及鼠标指针的样式等等。此外还可以在项目官网当中下载鼠标指针的图包解压放在inputtips所在的InputTipCursor文件夹中，设置鼠标指针，选择对应的目录即可。\n\n总体而言是个非常好用且轻便的小工具。\n\n",
+    "timestamp": "2024-12-15T04:22:08.008Z"
+  },
+  {
     "id": "1734157798656",
     "content": "# 秋风广告规则\n\n[项目地址](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)\n\n简而言之，是将这其中的广告规则添加到广告屏蔽器当中，例如ublock、adguard等常见的广告屏蔽器，以我自己为例，是使用的adguard的自建服务，因此到对应的设置当中添加秋风规则即可。当然这个规则最大的好处是可以屏蔽掉国产手机APP的开屏广告，虽然有些APP会提前下载好，但我目前用下来并没有遇到这种情况。\n\n## Adguard配置方式：\n进入到adguard管理页面当中，按图中提示点击添加规则：\n![image.png](https://github.com/vannear/tinymind-blog/blob/main/assets/images/2024-12-14/1734157581708.png?raw=true)\n![image.png](https://cloudflare-imgbed-p1r.pages.dev/file/1734157662006_image.png)\n![image.png](https://cloudflare-imgbed-p1r.pages.dev/file/1734157782691_image.png)\n\n在配置页面将地址设置为：\nhttps://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt\n名称随便填写即可，保存生效",
     "timestamp": "2024-12-14T06:29:58.656Z"
