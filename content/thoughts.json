@@ -1,5 +1,10 @@
 [
   {
+    "id": "1756775086998",
+    "content": "czkawka——文件排重工具\n\n[项目地址](https://github.com/qarmin/czkawka)\n\n多平台的工具，windows端测试下来还是比较好用的，不过下载软件安装包的时候要注意版本\n\n我选择的gui版是GTK46的可用。",
+    "timestamp": "2025-09-02T01:04:46.998Z"
+  },
+  {
     "id": "1748915108291",
     "content": "# RDP修改为60FPS\n\n昨天在逛L站的时候，有个帖子提到说RDP几乎是微软最好的软件——仅限于目前没有比它做得更好的远程控制客户端，我的印象当中RDP协议限定死了24FPS的帧率，但是有佬友提示可以将其修改为60FPS，于是动手搜索并且找到了微软的官方文档：\n\n步骤其实非常简单\n1. 打开RDP服务器——受控主机的注册表编辑器\n2. 定位至 HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Terminal Server\\WinStations\n3. 如果此处没有 DWMFRAMEINTERVAL 项目，则进行创建，创建的值为DWORD-32bit\n4. 将DWMFRAMEINTERVAL 设定为15(10进制的60)\n5. 保存修改，并重启主机即可\n\n在完成了这一设置之后，RDP的使用体验飞速提升。",
     "timestamp": "2025-06-03T01:45:08.291Z"
