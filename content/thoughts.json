@@ -1,5 +1,10 @@
 [
   {
+    "id": "1756781275868",
+    "content": "# notegen\n\n开源markdown写作软件，软件可以通过github创建一个专属的仓库，然后将文档自动保存到对应的仓库当中，从而实现多端同步。同时，该软件还有AI功能——虽然没有用过。\n\n总体而言的观感非常不错，而且支持暗色与亮色模式，都优化得不错。\n\n\n[官网地址](https://notegen.top)",
+    "timestamp": "2025-09-02T02:47:55.868Z"
+  },
+  {
     "id": "1756775218759",
     "content": "# Zyperwin++ —— windows修改工具\n\n本工具可以做到许多windows的优化，例如彻底关闭windows更新——将更新时间截止到2999年，彻底关闭windows defender等\n\n项目地址：https://github.com/ZyperWave/ZyperWinOptimize/tree/main",
     "timestamp": "2025-09-02T01:06:58.759Z"
