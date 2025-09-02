@@ -1,5 +1,10 @@
 [
   {
+    "id": "1756775218759",
+    "content": "# Zyperwin++ —— windows修改工具\n\n本工具可以做到许多windows的优化，例如彻底关闭windows更新——将更新时间截止到2999年，彻底关闭windows defender等\n\n项目地址：https://github.com/ZyperWave/ZyperWinOptimize/tree/main",
+    "timestamp": "2025-09-02T01:06:58.759Z"
+  },
+  {
     "id": "1756775086998",
     "content": "czkawka——文件排重工具\n\n[项目地址](https://github.com/qarmin/czkawka)\n\n多平台的工具，windows端测试下来还是比较好用的，不过下载软件安装包的时候要注意版本\n\n我选择的gui版是GTK46的可用。",
     "timestamp": "2025-09-02T01:04:46.998Z"
